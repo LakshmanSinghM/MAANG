@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Medium.MergeSort",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
             "name": "SubSequencesSum",
             "request": "launch",
             "mainClass": "Medium.SubSequencesSum",
