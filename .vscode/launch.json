@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "Medium.Permutation",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "Medium.QuickSort",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "Medium.MergeSort",
