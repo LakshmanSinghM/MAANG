@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfNumbersTest",
+            "request": "launch",
+            "mainClass": "SumOfNumbersTest",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
             "name": "Permutation",
             "request": "launch",
             "mainClass": "Medium.Permutation",
