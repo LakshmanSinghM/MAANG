@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IncreaseSalary",
+            "request": "launch",
+            "mainClass": "IncreaseSalary",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "FlattenEmps",
+            "request": "launch",
+            "mainClass": "FlattenEmps",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "GroupEmployeeByDepartment",
+            "request": "launch",
+            "mainClass": "GroupEmployeeByDepartment",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "FindAverageSalaryOfEmployee",
+            "request": "launch",
+            "mainClass": "FindAverageSalaryOfEmployee",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
             "name": "SumOfNumbersTest",
             "request": "launch",
             "mainClass": "SumOfNumbersTest",
