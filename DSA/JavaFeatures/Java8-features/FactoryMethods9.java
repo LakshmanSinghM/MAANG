@@ -13,6 +13,5 @@ public class FactoryMethods9{
         System.out.println("formattedName");
        }
     }
-
-
+    
     // list.stream().filter(s->s%2==0).collect(Collectors::toList);

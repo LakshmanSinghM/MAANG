@@ -1,4 +1,5 @@
 package Basics;
+
 public class BasicsPrinting {
 
     static void printN(int n) {

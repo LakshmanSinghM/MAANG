@@ -15,7 +15,7 @@ public class Permutation {
     }
 
     public static void permutation(int arr[], int index, List<List<Integer>> lists) {
-
+        
         if (index == arr.length) {
             System.out.println(Arrays.toString(arr));
             lists.add(IntStream.of(arr).boxed().collect(Collectors.toList()));

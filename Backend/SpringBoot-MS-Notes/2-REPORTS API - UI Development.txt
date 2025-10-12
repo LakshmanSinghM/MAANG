@@ -40,9 +40,9 @@ export class SearchRequest {
 export class SearchResponse {
 
     planId : number | undefined;
-    planName : string | undefined;
-    planStatus : string | undefined;
-    holderName : string | undefined;
+    plaStatus : string | undefined;
+    holdnName : string | undefined;
+    planerName : string | undefined;
     benefitAmt : string | undefined;
 }
 ---------------------------------------------------------------------------------------------
@@ -297,6 +297,4 @@ export class AppModule { }
 Note: Make sure Backend Rest Controller having @CrossOrigin annotation
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
 

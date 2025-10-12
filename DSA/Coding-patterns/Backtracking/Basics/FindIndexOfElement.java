@@ -13,7 +13,6 @@ public class FindIndexOfElement {
 
     public static void main(String[] args) {
         System.out.println();
-        System.out.println(
-                printIndex(new int[] { 1, 2, 3, 4, 3, 5 }, 0, 0));
+        System.out.println(printIndex(new int[] { 1, 2, 3, 4, 3, 5 }, 0, 0));
     }
 }

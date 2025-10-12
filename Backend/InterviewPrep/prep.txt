@@ -1,0 +1,164 @@
+🔹 Core Java / OOPs
+What are the key principles of OOP? Explain with examples.
+
+Difference between Abstract Class and Interface?
+
+What is polymorphism? How is it achieved in Java?
+
+Explain the Java Memory Model (Heap, Stack, PermGen/Metaspace).
+
+How does Garbage Collection work in Java?
+
+What are Checked vs Unchecked Exceptions?
+
+Explain the concept of Thread Safety and how to achieve it.
+
+How do HashMap, LinkedHashMap, and TreeMap differ?
+
+What are equals() and hashCode()? Why should they be overridden together?
+
+🔹 Spring Boot & Microservices
+What is Spring Boot and how is it different from Spring Framework?
+
+Explain Dependency Injection in Spring.
+
+What is a Spring Bean lifecycle?
+
+How do you secure your Spring Boot APIs?
+
+What are RestTemplate and WebClient?
+
+How do you implement pagination and sorting in Spring Boot?
+
+What is Circuit Breaker (e.g., using Resilience4j)?
+
+How do you do service discovery in microservices (Eureka/Consul)?
+
+What is Spring Cloud Config and how is it used?
+
+How do you use JWT in Spring Security?
+
+
+
+
+
+🔹 Databases (SQL + NoSQL)
+Write a SQL query to get Nth highest salary.
+
+How do you optimize a slow-running query?
+
+Explain joins (INNER, LEFT, RIGHT, FULL).
+
+What are indexes? When should you use them?
+
+Difference between SQL vs NoSQL databases.
+
+Explain ACID properties.
+
+When would you use MongoDB over MySQL?
+
+How do you handle schema migrations?
+
+
+
+
+
+
+🔹 JavaScript / TypeScript / React / Next.js
+Explain closures, hoisting, and event loop in JavaScript.
+
+Difference between == and ===?
+
+What is virtual DOM and how does React use it?
+
+What are props, state, and hooks?
+
+Difference between useEffect and useLayoutEffect.
+
+What is SSR, SSG, and ISR in Next.js?
+
+How do you handle API calls in React/Next.js?
+
+What is Redux and when should you use it?
+
+How do you implement lazy loading in React?
+
+How do you structure large-scale React apps?
+
+
+
+
+
+🔹 DevOps & Deployment
+What is a Docker container? How is it different from a VM?
+
+How do you dockerize a Springboot or React app?
+
+What is a CI/CD pipeline?
+
+How do you set up NGINX or Apache as a reverse proxy?
+
+Explain the role of GitHub Actions, Jenkins, or GitLab CI.
+
+What is Kubernetes and why use it?
+
+
+
+
+🔹 System Design (Basic to Intermediate)
+Design a URL Shortener (like Bitly).
+
+Design a Notification Service (Email/SMS).
+
+How would you scale a chat application?
+
+Explain the difference between monolithic and microservices.
+
+What is load balancing and how do you implement it?
+
+How do you ensure high availability and fault tolerance?
+
+
+
+
+🔹 Behavioral Questions
+Describe a time when you faced a production issue. How did you solve it?
+
+How do you manage deadlines in a fast-paced environment?
+
+How do you handle code reviews and team disagreements?
+
+What has been your biggest technical challenge so far?
+
+
+
+
+🔹 Testing
+What are unit tests vs integration tests?
+
+How do you write tests in Spring Boot (JUnit, Mockito)?
+
+What is test coverage? How do you ensure quality?
+
+
+
+
+🔹 API / REST
+Explain the difference between PUT, POST, and PATCH.
+
+What is idempotency in REST APIs?
+
+How do you handle versioning in REST APIs?
+
+What are status codes and when do you return each?
+
+
+
+🔹 Miscellaneous
+How do you handle large file uploads?
+
+What is CORS and how do you enable/disable it?
+
+What is authentication vs authorization?
+
+How do you manage environment variables securely?

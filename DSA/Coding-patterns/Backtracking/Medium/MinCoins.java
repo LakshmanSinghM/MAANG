@@ -27,25 +27,29 @@ public class MinCoins {
 
         return false;
     }
-//  count total no of the subsequences return 1 when condition satisfied and return 0 when condition not satisfied
+//count total no of the subsequences return 1 when condition satisfied and return 0 when condition not satisfied
+
     public static int findMinCoinsCount(int arr[], int index, int n, int target, int sum, int cnt) {
         if (index >= arr.length) {
             return 0;
         }
+
         if (target == sum) {
             System.out.println("Counts are  : " + cnt);
             return 1;
         }
+
         if (sum > target) {
             return 0;
         }
+
         sum += arr[index];
         cnt++;
         int leftCnt = findMinCoinsCount(arr, index, n, target, sum, cnt);
         sum -= arr[index];
         cnt--;
         int rightCnt = findMinCoinsCount(arr, index + 1, n, target, sum, cnt);
-        return Math.min(leftCnt ,rightCnt);
+        return Math.min(leftCnt , rightCnt);
     }
 
     public static void main(String[] args) {
