@@ -27,7 +27,8 @@ public class MinCoins {
 
         return false;
     }
-//count total no of the subsequences return 1 when condition satisfied and return 0 when condition not satisfied
+    // count total no of the subsequences return 1 when condition satisfied and
+    // return 0 when condition not satisfied
 
     public static int findMinCoinsCount(int arr[], int index, int n, int target, int sum, int cnt) {
         if (index >= arr.length) {
@@ -49,7 +50,7 @@ public class MinCoins {
         sum -= arr[index];
         cnt--;
         int rightCnt = findMinCoinsCount(arr, index + 1, n, target, sum, cnt);
-        return Math.min(leftCnt , rightCnt);
+        return Math.min(leftCnt, rightCnt);
     }
 
     public static void main(String[] args) {
@@ -57,6 +58,7 @@ public class MinCoins {
         // first sort the array in any order for now i will be sorting in DESC order
         // Arrays.sort(arr,(a,b)->b[0]-a[0]);
         System.out.println(findMinCoins(arr, 0, arr.length, 7, 0, 0));
-        // System.out.println(findMinCoinsCount(arr, 0, arr.length, 7, 0, 0)); //wrong ans
+        // System.out.println(findMinCoinsCount(arr, 0, arr.length, 7, 0, 0)); //wrong
+        // ans
     }
 }
