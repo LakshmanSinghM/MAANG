@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    mark {
+      background-color: rgb(51, 234, 51);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div id="para">Hi how are you doing okay i am doing fine. Hope you are also doing well</div>
+
+<script>
+  let para = document.getElementById("para").innerText;
+
+  let sents = [
+    "Hi how are",
+    "hi how are you doing",
+    "doing okay",
+    "okay",
+    "doing",
+    "doing well",
+    "fine",
+    "doing fine",
+    "you are"
+  ];
+
+  // Sort longer phrases first
+  sents.sort((a, b) => b.length - a.length);
+
+  sents.forEach(phrase => {
+    const regex = new RegExp(phrase, "g"); // case-insensitive
+    para = para.replace(regex, match => `<mark>${match}</mark>`);
+  });
+
+  document.getElementById("para").innerHTML = para;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+| #  | Problem Name                          | Description                                               | Platform                                                                            |
+| -- | ------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| 1  | Subsets II                            | Return all subsets, avoid duplicates                      | [Leetcode 90](https://leetcode.com/problems/subsets-ii/)                            |
+| 2  | Combination Sum                       | Use elements multiple times to sum to target              | [Leetcode 39](https://leetcode.com/problems/combination-sum/)                       |
+| 3  | Combination Sum II                    | Use elements once, avoid duplicates                       | [Leetcode 40](https://leetcode.com/problems/combination-sum-ii/)                    |
+| 4  | Permutations                          | Return all permutations of distinct integers              | [Leetcode 46](https://leetcode.com/problems/permutations/)                          |
+| 5  | Permutations II                       | Return all unique permutations of duplicates              | [Leetcode 47](https://leetcode.com/problems/permutations-ii/)                       |
+| 6  | Letter Combinations of a Phone Number | Generate letter combinations from digits                  | [Leetcode 17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |
+| 7  | Palindrome Partitioning               | Partition string into palindromic substrings              | [Leetcode 131](https://leetcode.com/problems/palindrome-partitioning/)              |
+| 8  | Generate Parentheses                  | Generate all combinations of valid parentheses            | [Leetcode 22](https://leetcode.com/problems/generate-parentheses/)                  |
+| 9  | Word Search                           | Find a word in a 2D grid using adjacent cells             | [Leetcode 79](https://leetcode.com/problems/word-search/)                           |
+| 10 | N-Queens                              | Place N queens on board without attacking each other      | [Leetcode 51](https://leetcode.com/problems/n-queens/)                              |
+| 11 | Sudoku Solver                         | Fill in Sudoku board using backtracking                   | [Leetcode 37](https://leetcode.com/problems/sudoku-solver/)                         |
+| 12 | Restore IP Addresses                  | Return valid IPs from a digit string                      | [Leetcode 93](https://leetcode.com/problems/restore-ip-addresses/)                  |
+| 13 | Rat in a Maze                         | Find all paths in a grid from top-left to bottom-right    | [GFG Link](https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/)             |
+| 14 | Binary Watch                          | Generate valid times given LEDs on                        | [Leetcode 401](https://leetcode.com/problems/binary-watch/)                         |
+| 15 | Expression Add Operators              | Add + - \* to make expression evaluate to target          | [Leetcode 282](https://leetcode.com/problems/expression-add-operators/)             |
+| 16 | Word Break II                         | Return all valid sentences from a string and word dict    | [Leetcode 140](https://leetcode.com/problems/word-break-ii/)                        |
+| 17 | Combination Sum III                   | Find all k-length combinations that sum to n              | [Leetcode 216](https://leetcode.com/problems/combination-sum-iii/)                  |
+| 18 | Android Unlock Patterns               | Count valid Android unlock patterns                       | [Leetcode 351](https://leetcode.com/problems/android-unlock-patterns/)              |
+| 19 | Beautiful Arrangement                 | Count permutations where position and value are divisible | [Leetcode 526](https://leetcode.com/problems/beautiful-arrangement/)                |
+| 20 | Matchsticks to Square                 | Check if matchsticks can form a square                    | [Leetcode 473](https://leetcode.com/problems/matchsticks-to-square/)                |
