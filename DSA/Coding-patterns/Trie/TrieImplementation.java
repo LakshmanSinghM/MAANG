@@ -1,4 +1,3 @@
-
 class Trie {
     Trie links[] = new Trie[26];
     boolean endOfW;
