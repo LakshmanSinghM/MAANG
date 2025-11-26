@@ -1,4 +1,4 @@
-public class FirstAndLastOccur {
+public class CountOccurInSortedArray {
     static int findFirst(int arr[], int k) {
         int low = 0;
         int high = arr.length;
@@ -39,8 +39,9 @@ public class FirstAndLastOccur {
     }
 
     public static void main(String[] args) {
-        int arr[] = new int[] { 1, 2, 3, 8, 8, 11 };
-        int k = 8;
-        System.out.println(findFirst(arr, k)+"  "+findLast(arr, k));
+        int arr[] = new int[] { 1, 2, 8, 8, 8, 11, 11 };
+        int k = 11;
+        System.out.println(findFirst(arr, k) + "  " + (findLast(arr, k)));
+        System.out.println("Total occurence of the num is " + (findLast(arr, k) - findFirst(arr, k) + 1));
     }
 }
