@@ -1,3 +1,4 @@
+
 public class FindNthRoot {
     static int mutiplyNTimes(int n, int k) {
         int ans = k;
@@ -15,7 +16,7 @@ public class FindNthRoot {
             int findNthSq = mutiplyNTimes(n, mid);
 
             System.out.println("The nth multiple times value " + findNthSq+"     "+mid +"     "+n);
-            
+
             if (num == findNthSq)
                 return mid;
 
