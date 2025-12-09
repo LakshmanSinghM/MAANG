@@ -41,11 +41,11 @@ public class CountNumberSubstr {
 
     private static int countNumberSubstring(String s, int k) {
         // this is the formula to get the total
-        // pending to test
+        // done
         int a = countNumberSubstr(s, k);
         int b = countNumberSubstr(s, k - 1);
         System.out.println(a + "   " + b);
-
+        
         return a - b;
     }
 

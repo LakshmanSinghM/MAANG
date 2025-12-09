@@ -1,5 +1,5 @@
 public class AtoI {
-    
+
     public static int myAtoi(String s) {
         s = s.trim();
         int sign = 1;
