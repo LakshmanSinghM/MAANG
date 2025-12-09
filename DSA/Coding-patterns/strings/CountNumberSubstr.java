@@ -26,7 +26,7 @@ public class CountNumberSubstr {
         for (r = 0; r < s.length(); r++) {
             map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) + 1);
 
-            if (map.size() > k) {
+            while (map.size() > k) {
                 map.put(s.charAt(l), map.getOrDefault(s.charAt(l), 0) - 1);
 
                 if (map.getOrDefault(s.charAt(l), 0) == 0)
@@ -42,7 +42,11 @@ public class CountNumberSubstr {
     private static int countNumberSubstring(String s, int k) {
         // this is the formula to get the total
         // pending to test
-        return countNumberSubstr(s, k) - countNumberSubstr(s, k - 1);
+        int a = countNumberSubstr(s, k);
+        int b = countNumberSubstr(s, k - 1);
+        System.out.println(a + "   " + b);
+
+        return a - b;
     }
 
     public static void main(String[] args) {
