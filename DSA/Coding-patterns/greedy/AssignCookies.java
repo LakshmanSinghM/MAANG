@@ -8,6 +8,7 @@ public class AssignCookies {
         Arrays.sort(s);
         int j = 0;
         int cnt = 0;
+
         for (int i = 0; i < g.length; i++) {
 
             for (int k = j; k < s.length; k++) {

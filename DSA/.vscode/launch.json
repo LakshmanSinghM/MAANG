@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "LinkedList",
+        "request": "launch",
+        "mainClass": "LinkedList",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "Launch LinkedList",
+        "request": "launch",
+        "projectName": "DSA"
+    }
+]
+}
