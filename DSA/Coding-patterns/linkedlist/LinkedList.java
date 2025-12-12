@@ -32,8 +32,9 @@ class NodeMethods {
     void deleteLast() {
         Node temp = head;
         Node prev = head;
-       
-        if(head.next==null) head = null;
+
+        if (head.next == null)
+            head = null;
         // 1 2 3 4 5
 
         while (temp.next != null) {
@@ -41,6 +42,30 @@ class NodeMethods {
             temp = temp.next;
         }
         prev.next = null;
+    }
+
+    void deleteNthNode(int n) {
+        Node temp = head;
+        int k = 1;
+        Node prev = head;
+
+        if (head.next == null) {
+            head = null;
+            return;
+        }
+
+        if (n == 1) {
+            head = head.next;
+            return;
+        }
+
+        while (temp != null && k < n) {
+            prev = temp;
+            temp = temp.next;
+            k++;
+        }
+
+        prev.next = temp.next;
     }
 
     void printList(Node head) {
@@ -57,9 +82,11 @@ public class LinkedList {
         NodeMethods nm = new NodeMethods();
         nm.insert(3);
         nm.insert(4);
-        // nm.insert(7);
+        nm.insert(7);
+        nm.insert(9);
         // nm.deleteFirst();
-        nm.deleteLast();
+        // nm.deleteLast();
+        nm.deleteNthNode(3);
         nm.printList(nm.head);
     }
 }
