@@ -87,19 +87,61 @@ class DDLMethods {
             insertLast(arr[i]);
         }
     }
+
+    void reverseDDL() {
+
+    }
+
+    void deleteKthNode(int k) {
+        Node temp = head;
+        int cnt = 1;
+        if (head == null) {
+            return;
+        }
+
+        if (head != null && head.next == null && head.prev == null) {
+            head = null;
+            tail = null;
+            return;
+        }
+
+        while (temp != null) {
+            if (k == cnt) {
+                break;
+            }
+            cnt++;
+            temp = temp.next;
+        }
+
+        Node prev = temp.prev;
+        Node next = temp.next;
+
+        if (prev != null)
+            prev.next = next;
+
+        if (next != null)
+            next.prev = prev;
+
+        if (prev == null) {
+            next.prev = null;
+            temp.next = null;
+            head = next;
+        }
+    }
 }
 
 public class DLL {
     public static void main(String[] args) {
         DDLMethods ddlMethods = new DDLMethods();
-        int arr[] = new int[] { 2, 5, 6, 7 };
+        int arr[] = new int[] {2,4};
 
         ddlMethods.arrayToDLL(arr);
-        ddlMethods.deleteFront();
-        ddlMethods.deleteLast();
-        ddlMethods.deleteLast();
-        // ddlMethods.deleteLast(); 
+        // ddlMethods.deleteFront();
         // ddlMethods.deleteLast();
+        // ddlMethods.deleteLast();
+        // ddlMethods.deleteLast();
+        // ddlMethods.deleteLast();
+        ddlMethods.deleteKthNode(2);
         ddlMethods.printDLLForward();
         // ddlMethods.printDLLBackward();
     }
