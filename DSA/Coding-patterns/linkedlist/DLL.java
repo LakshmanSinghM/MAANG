@@ -92,6 +92,44 @@ class DDLMethods {
 
     }
 
+    void insertBeforeTail(int val) {
+
+        if (tail == null) {
+            insertFront(val);
+            return;
+        }
+
+        Node newNode = new Node();
+        newNode.val = val;
+
+        if (tail.prev == null) {
+            head = newNode;
+            newNode.next = tail;
+            tail.prev = newNode;
+            return;
+        }
+
+        Node prev = tail.prev;
+        prev.next = newNode;
+        newNode.prev = prev;
+        tail.prev = newNode;
+        newNode.next = tail;
+    }
+
+    void insertBeforeHead(int val) {
+
+        if (tail == null) {
+            insertFront(val);
+            return;
+        }
+
+        Node newNode = new Node();
+        newNode.val = val;
+        newNode.next = head;
+        head.prev = newNode;
+        head = newNode;
+    }
+
     void deleteKthNode(int k) {
         Node temp = head;
         int cnt = 1;
@@ -128,12 +166,30 @@ class DDLMethods {
             head = next;
         }
     }
+
+    void deleteTheNode(Node node) {
+        Node temp = node;
+        Node prev = null;
+
+        // 1 3 2 4
+
+        while (temp != null && temp != node) {
+            prev = temp;
+            temp = temp.next;
+        }
+
+        Node next = temp.next;
+
+        prev.next = next;
+        next.prev = prev;
+
+    }
 }
 
 public class DLL {
     public static void main(String[] args) {
         DDLMethods ddlMethods = new DDLMethods();
-        int arr[] = new int[] {2,4};
+        int arr[] = new int[] { 2, 4 };
 
         ddlMethods.arrayToDLL(arr);
         // ddlMethods.deleteFront();
@@ -141,7 +197,8 @@ public class DLL {
         // ddlMethods.deleteLast();
         // ddlMethods.deleteLast();
         // ddlMethods.deleteLast();
-        ddlMethods.deleteKthNode(2);
+        // ddlMethods.deleteKthNode(2);
+        ddlMethods.insertBeforeHead(6);
         ddlMethods.printDLLForward();
         // ddlMethods.printDLLBackward();
     }
