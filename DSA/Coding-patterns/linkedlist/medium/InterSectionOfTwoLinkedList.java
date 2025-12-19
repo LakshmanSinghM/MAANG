@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
+package medium;
 
 public class InterSectionOfTwoLinkedList {
     static int findLength(ListNode head) {
