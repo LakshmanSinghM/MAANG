@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "Sort012InList",
+        "request": "launch",
+        "mainClass": "medium.Sort012InList",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "DLL",
         "request": "launch",
         "mainClass": "DLL",
