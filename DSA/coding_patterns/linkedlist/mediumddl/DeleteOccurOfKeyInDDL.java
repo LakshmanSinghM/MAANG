@@ -1,4 +1,3 @@
-
 class ListNode {
     ListNode prev;
     ListNode next;

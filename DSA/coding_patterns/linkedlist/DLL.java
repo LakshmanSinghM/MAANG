@@ -89,15 +89,16 @@ class DDLMethods {
     }
 
     void reverseDDL() {
-        //thought from swap two var concept 
-        Node cur = head; Node prev = null;
-        while(cur!=null){
+        // thought from swap two var concept
+        Node cur = head;
+        Node prev = null;
+        while (cur != null) {
             prev = cur.prev;
             cur.prev = cur.next;
-            cur.next  = prev;
+            cur.next = prev;
             cur = cur.prev;
-        } 
-        head  = prev.prev;
+        }
+        head = prev.prev;
     }
 
     void insertBeforeTail(int val) {
@@ -197,7 +198,7 @@ class DDLMethods {
 public class DLL {
     public static void main(String[] args) {
         DDLMethods ddlMethods = new DDLMethods();
-        int arr[] = new int[] { 2, 4 };
+        int arr[] = new int[] { 2,2,3,3,4,5,6,7,7};
 
         ddlMethods.arrayToDLL(arr);
         // ddlMethods.deleteFront();
@@ -207,7 +208,8 @@ public class DLL {
         // ddlMethods.deleteLast();
         // ddlMethods.deleteKthNode(2);
         // ddlMethods.insertBeforeHead(6);
-        ddlMethods.reverseDDL();
+        // ddlMethods.reverseDDL();
+        ddlMethods.removeDuplicates(ddlMethods.head);
         ddlMethods.printDLLForward();
         // ddlMethods.printDLLBackward();
     }

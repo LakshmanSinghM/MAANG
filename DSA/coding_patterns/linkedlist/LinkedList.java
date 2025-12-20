@@ -75,6 +75,7 @@ class NodeMethods {
             temp = temp.next;
         }
     }
+    
 }
 
 public class LinkedList {
