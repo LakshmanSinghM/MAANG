@@ -16,6 +16,7 @@ public class LongestPalindromicString {
         String str = "";
         for (int i = 0; i < s.length(); i++) {
             String even = palindrom(i, i + 1, s);
+            
             if (max < even.length()) {
                 max = even.length();
                 str = even;

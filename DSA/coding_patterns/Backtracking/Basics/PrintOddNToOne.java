@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class PrintOddNToOne {
     public static String printOdd(int n, String s) {

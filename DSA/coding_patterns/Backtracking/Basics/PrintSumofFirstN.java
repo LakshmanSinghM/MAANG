@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class PrintSumofFirstN {
     static int print(int n) {

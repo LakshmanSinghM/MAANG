@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class PrintFactOfN {
     static int  printFact(int n){

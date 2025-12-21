@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 public class FabonacciSeries {
 
     // static void printFabTillN(int n, int a, int b){
@@ -11,8 +11,10 @@ public class FabonacciSeries {
     static int returnFabOfN(int n) {
         if (n == 0)
             return 0;
+
         if (n == 1)
             return 1;
+
         return returnFabOfN(n - 1) + returnFabOfN(n - 2);
     }
 

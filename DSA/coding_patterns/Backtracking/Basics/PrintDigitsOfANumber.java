@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class PrintDigitsOfANumber {
     static void printDigits(int n) {

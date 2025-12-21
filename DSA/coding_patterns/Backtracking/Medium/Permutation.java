@@ -1,4 +1,4 @@
-package Medium;
+package medium;
 
 import java.util.*;
 import java.util.stream.Collectors;

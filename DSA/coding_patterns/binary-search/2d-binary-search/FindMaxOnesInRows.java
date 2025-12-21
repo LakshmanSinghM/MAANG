@@ -1,10 +1,12 @@
 // https://takeuforward.org/plus/dsa/problems/find-row-with-maximum-1's
 
 public class FindMaxOnesInRows {
+
     private static int findLowerBoundOfOneWithMax(int arr[]) {
         // 0 0 0 1 1 1
         int ele = 1, low = 0, high = arr.length - 1;
         int ans = -1;
+        
         while (low <= high) {
             int mid = (low + high) / 2;
 

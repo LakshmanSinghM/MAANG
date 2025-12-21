@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class FindOccurence {
     static int findOccurence(int arr[], int ele, int index, int ocr) {

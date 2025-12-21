@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class TrieNode {
     TrieNode links[] = new TrieNode[26];
     boolean endOfW;

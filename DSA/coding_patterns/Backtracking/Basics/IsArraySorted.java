@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class IsArraySorted {
     static boolean isArraySorted(int arr[], int index) {

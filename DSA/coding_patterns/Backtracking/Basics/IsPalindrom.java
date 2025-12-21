@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class IsPalindrom {
     static boolean isPalindrom(String s, int index) {

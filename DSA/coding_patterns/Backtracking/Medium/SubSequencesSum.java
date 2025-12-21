@@ -1,4 +1,4 @@
-package Medium;
+package medium;
 
 import java.util.*;
 public class SubSequencesSum {

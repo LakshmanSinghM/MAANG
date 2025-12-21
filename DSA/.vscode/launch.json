@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "LongestSubStringWRepeating",
+        "request": "launch",
+        "mainClass": "medium.LongestSubStringWRepeating",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "BasicsPrinting",
+        "request": "launch",
+        "mainClass": "basics.BasicsPrinting",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "Sort012InList",
         "request": "launch",
         "mainClass": "medium.Sort012InList",

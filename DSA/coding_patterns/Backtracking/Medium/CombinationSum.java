@@ -1,4 +1,4 @@
-package Medium;
+package medium;
 
 import java.util.*;
 
@@ -60,8 +60,8 @@ public class CombinationSum {
         List<List<Integer>> lists = new ArrayList<>();
         int arr[] = new int[] { 2, 3, 4 };
         // combinationSum(arr, 0, new ArrayList<>(), lists, 7, 0);
-        System.out.println("List formed like this "+combinationSum(arr, 0, 7, 0, new ArrayList<>()));
-        System.out.println("List formed like this "+combinationSum(arr, 0, 4, 0, new ArrayList<>()));
+        System.out.println("List formed like this " + combinationSum(arr, 0, 7, 0, new ArrayList<>()));
+        System.out.println("List formed like this " + combinationSum(arr, 0, 4, 0, new ArrayList<>()));
         System.out.println();
         System.out.println(lists);
     }

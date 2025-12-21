@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 
 public class FindMaxInArray {
     static int findMaxInArray(int arr[], int max,int index){
