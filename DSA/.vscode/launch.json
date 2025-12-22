@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "PrintSubSequences",
+        "request": "launch",
+        "mainClass": "medium.PrintSubSequences",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "TestLaterDelete",
+        "request": "launch",
+        "mainClass": "medium.TestLaterDelete",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "FabonacciSeries",
+        "request": "launch",
+        "mainClass": "basics.FabonacciSeries",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "LongestSubStringWRepeating",
         "request": "launch",
         "mainClass": "medium.LongestSubStringWRepeating",
