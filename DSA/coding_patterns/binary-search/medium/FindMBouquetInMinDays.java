@@ -1,9 +1,11 @@
 // https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
 public class FindMBouquetInMinDays {
+
     static boolean isBloomed(int arr[], int maxDayNum, int m, int k) {
         int count = 0;
         int sum = 0;
+
         for (int i = 0; i < arr.length; i++) {
             sum += (count / k);
 
@@ -14,8 +16,8 @@ public class FindMBouquetInMinDays {
                 count++;
             else
                 count = 0;
-
         }
+        
         sum += (count / k);
         return sum >= m;
     }

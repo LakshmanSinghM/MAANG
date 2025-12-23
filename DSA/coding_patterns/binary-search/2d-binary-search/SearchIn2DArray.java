@@ -25,6 +25,7 @@ public class SearchIn2DArray {
         int row = matrix.length;
         int col = matrix[0].length;
         int lastCol = col - 1;
+        
         for (int i = 0; i < matrix.length; i++) {
 
             System.out.println(Arrays.toString(matrix[i]));

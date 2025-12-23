@@ -1,4 +1,5 @@
 public class FirstAndLastOccur {
+
     static int findFirst(int arr[], int k) {
         int low = 0;
         int high = arr.length;
@@ -41,6 +42,6 @@ public class FirstAndLastOccur {
     public static void main(String[] args) {
         int arr[] = new int[] { 1, 2, 3, 8, 8, 11 };
         int k = 8;
-        System.out.println(findFirst(arr, k)+"  "+findLast(arr, k));
+        System.out.println(findFirst(arr, k) + "  " + findLast(arr, k));
     }
 }

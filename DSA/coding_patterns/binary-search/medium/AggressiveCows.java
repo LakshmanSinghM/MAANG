@@ -3,6 +3,7 @@
 import java.util.Arrays;
 
 public class AggressiveCows {
+    
     static boolean canPlaceCows(int arr[], int distance, int cows) {
         int foundCows = 1;
         int last = arr[0];
@@ -21,6 +22,7 @@ public class AggressiveCows {
         int low = arr[0];
         int high = arr[arr.length - 1];
         int ans = -1;
+
         while (low <= high) {
             int mid = (high + low) / 2;
 

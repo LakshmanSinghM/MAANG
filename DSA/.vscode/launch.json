@@ -3,6 +3,48 @@
   "configurations": [
     {
         "type": "java",
+        "name": "LoweBound",
+        "request": "launch",
+        "mainClass": "LoweBound",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "FindIndexOfElement",
+        "request": "launch",
+        "mainClass": "basics.FindIndexOfElement",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "MinCoins",
+        "request": "launch",
+        "mainClass": "medium.MinCoins",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "Permutation",
+        "request": "launch",
+        "mainClass": "medium.Permutation",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "CombinationSum",
+        "request": "launch",
+        "mainClass": "medium.CombinationSum",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "PrintNtoOne",
+        "request": "launch",
+        "mainClass": "basics.PrintNtoOne",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "PrintSubSequences",
         "request": "launch",
         "mainClass": "medium.PrintSubSequences",

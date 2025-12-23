@@ -2,6 +2,7 @@ package basics;
 import java.util.*;
 
 public class PrintEvenOneToN {
+  
     // static List<Integer> printEven(int n, List<Integer> list , int sum){
     // if(n==0) return list;
     //   list.add(n);
@@ -11,6 +12,7 @@ public class PrintEvenOneToN {
     //   System.out.println(sum);
     //   return list;
     // } 
+
     static List<Integer> printEven(int n, List<Integer> list , int sum){
         if(n==0) return list;
         if(n%2==0) {

@@ -19,6 +19,7 @@ class RotateArray {
         reverse(nums,k, n);
     }
 }
+
 // k=3
 // [1,2,3,4,5,6,7]  reverse (n-k,n) ->
 // [1,2,3,4,7,6,5] reverse(0,n);

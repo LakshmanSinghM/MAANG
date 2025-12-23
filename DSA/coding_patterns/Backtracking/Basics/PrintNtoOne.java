@@ -55,8 +55,8 @@ public class PrintNtoOne {
     }
 
     public static void main(String[] args) {
-        // System.out.println(print(4, new ArrayList<>()));
+        System.out.println(print(4, new ArrayList<>()));
         // System.out.println(print(4, 0));
-        print(1, 5);
+        // print(1, 5);
     }
 }

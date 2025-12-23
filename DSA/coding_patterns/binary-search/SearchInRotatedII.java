@@ -9,6 +9,7 @@ public class SearchInRotatedII {
             if (arr[mid] == target)
                 return true;
             // [1,2,1]
+            // it should be while condition support we 1 1 2 3 3 then ? 
             if (arr[low] == arr[mid] && arr[mid] == arr[high]) {
                 low++;
                 high--;

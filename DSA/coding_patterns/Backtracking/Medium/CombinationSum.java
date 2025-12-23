@@ -8,14 +8,17 @@ public class CombinationSum {
     // [2,3,4] k=7
     // ans [[2,2,3], [3,4]]
 
-    public static void combinationSum(int arr[], int index, List<Integer> list, List<List<Integer>> lists, int target,
-            int sum) {
+    public static void combinationSum(int arr[], int index, List<Integer> list,
+            List<List<Integer>> lists, int target, int sum) {
+
         if (index >= arr.length)
             return;
+
         if (target == sum) {
             lists.add(new ArrayList<>(list));
             return;
         }
+
         if (sum > target)
             return;
 
@@ -34,6 +37,7 @@ public class CombinationSum {
                 return new ArrayList<>(list);
             return new ArrayList<>();
         }
+
         if (target == sum)
             return new ArrayList<>(list);
 
@@ -42,17 +46,20 @@ public class CombinationSum {
 
         list.add(arr[index]);
         sum += arr[index];
+
         List<Integer> list1 = combinationSum(arr, index + 1, target, sum, list);
         list.removeLast();
         sum -= arr[index];
         List<Integer> list2 = combinationSum(arr, index + 1, target, sum, list);
-        System.out.println("list1&2 " + list1 + list2);
+
+        // System.out.println("list1&2 " + list1 + list2);
 
         if (!list1.isEmpty())
             return list1;
 
         if (!list2.isEmpty())
             return list2;
+            
         return new ArrayList<>();
     }
 

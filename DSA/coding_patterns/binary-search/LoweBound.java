@@ -17,7 +17,7 @@ public class LoweBound {
     }
 
     public static void main(String[] args) {
-        int arr[] = new int[] { 1, 2, 2 };
+        int arr[] = new int[] { 1, 1,2, 2 };
         int target = 2;
         System.out.println("Found At Index " + findLowerBound(arr, target));
     }

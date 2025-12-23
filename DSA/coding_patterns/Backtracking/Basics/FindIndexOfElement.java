@@ -5,7 +5,7 @@ public class FindIndexOfElement {
     static int printIndex(int arr[], int ele, int index) {
         if (index >= arr.length)
             return -1;
-            
+
         if (ele == arr[index])
             return index;
         return printIndex(arr, ele, index + 1);
