@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "ReverseStackUsingRecursion",
+        "request": "launch",
+        "mainClass": "medium.ReverseStackUsingRecursion",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "SortStackUsingRecursion",
         "request": "launch",
         "mainClass": "medium.SortStackUsingRecursion",
