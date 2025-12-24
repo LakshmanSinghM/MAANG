@@ -41,6 +41,7 @@ public class SubsetsII {
         else
         subsets(arr, i + 1, lists, list);
         list.removeLast();
+        
         if (i >= 1 && arr[i] != arr[i - 1])
         subsets(arr, i + 1, lists, list);
         else   

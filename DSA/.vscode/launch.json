@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "SortStackUsingRecursion",
+        "request": "launch",
+        "mainClass": "medium.SortStackUsingRecursion",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "FrequencySort",
+        "request": "launch",
+        "mainClass": "FrequencySort",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "MoveZerosToEnd",
+        "request": "launch",
+        "mainClass": "MoveZerosToEnd",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "LoweBound",
         "request": "launch",
         "mainClass": "LoweBound",

@@ -92,6 +92,7 @@ class TrieMethods {
     int countChildren(Trie currentNode) {
         Trie node = currentNode;
         int count = 0;
+       
         for (int i = 0; i < 26; i++) {
             if (node.links[i] != null){
                    index = i;
@@ -102,6 +103,7 @@ class TrieMethods {
     }
 
     String longestCommonPrefix(Trie root) {
+        
         String prefix = "";
         Trie node = root; 
         while (countChildren(node) == 1 && !node.endOfW) {
