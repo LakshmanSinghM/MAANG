@@ -3,6 +3,34 @@
   "configurations": [
     {
         "type": "java",
+        "name": "CheckIfThereExistsSumWithK",
+        "request": "launch",
+        "mainClass": "medium.CheckIfThereExistsSumWithK",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "CountSubSequenceEqToK",
+        "request": "launch",
+        "mainClass": "medium.CountSubSequenceEqToK",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "PrintSubSequenceOfTarget",
+        "request": "launch",
+        "mainClass": "medium.PrintSubSequenceOfTarget",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "Subsets",
+        "request": "launch",
+        "mainClass": "medium.Subsets",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "GenerateParenthesis",
         "request": "launch",
         "mainClass": "medium.GenerateParenthesis",

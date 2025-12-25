@@ -26,7 +26,6 @@ public class MinCoins {
         cnt--;
         if (findMinCoins(arr, index + 1, n, target, sum, cnt) == true)
             return true;
-
         return false;
     }
 
