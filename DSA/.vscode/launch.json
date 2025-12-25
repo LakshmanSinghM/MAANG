@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "GenerateParenthesis",
+        "request": "launch",
+        "mainClass": "medium.GenerateParenthesis",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "GenerateBinaryStringWihoutCons1",
+        "request": "launch",
+        "mainClass": "medium.GenerateBinaryStringWihoutCons1",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "ReverseStackUsingRecursion",
         "request": "launch",
         "mainClass": "medium.ReverseStackUsingRecursion",
