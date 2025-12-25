@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/combination-sum-ii/
 package medium;
 
 import java.util.ArrayList;
@@ -5,38 +6,39 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CombinationSumII {
-    
-    public static void combinationSum(int index, List<List<Integer>> lists, int arr[],
-            List<Integer> list, int sum, int target) {
 
-        if (index == arr.length) {
-            if (sum == target) {
+    void findCoinsToFormTarget(List<List<Integer>> lists, int i, int n, int arr[], List<Integer> list, int target) {
+        if (i == n || target < 0) {
+            if (target == 0)
                 lists.add(new ArrayList<>(list));
-            }
             return;
         }
-
-        if (sum < 0) {
-            return;
-        }
-
-        if (sum == target) {
+        if (target == 0)
             lists.add(new ArrayList<>(list));
+
+        for (int index = i; index < arr.length; index++) {
+            if (index > i && arr[index] == arr[index - 1])
+                continue;
+            list.add(arr[index]);
+            findCoinsToFormTarget(lists, index + 1, n, arr, list, target - arr[index]);
+            list.removeLast();
         }
-        list.add(arr[index]);
-        sum += arr[index];
-        combinationSum(index + 1, lists, arr, list, sum, target);
-        sum -= arr[index];
-        list.removeLast();
-        combinationSum(index + 1, lists, arr, list, sum, target);
+    }
+
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> lists = new ArrayList<>();
+        findCoinsToFormTarget(lists, 0, candidates.length, candidates, new ArrayList<>(), target);
+        return lists;
+    }
+
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        return combinationSum(candidates, target);
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, 2, 3, 4, 5, 1 };
-        List<List<Integer>> lists = new ArrayList<>();
+        int arr[] = { 1, 2, 3, 4, 5, 1 }; 
         int target = 5;
-        Arrays.sort(arr);
-        combinationSum(0, lists, arr, new ArrayList<>(), 0, target);
-        System.out.println(lists);
+        System.out.println(new CombinationSumII().combinationSum2(arr, target));
     }
 }

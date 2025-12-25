@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "CombinationSumII",
+        "request": "launch",
+        "mainClass": "medium.CombinationSumII",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "CheckIfThereExistsSumWithK",
         "request": "launch",
         "mainClass": "medium.CheckIfThereExistsSumWithK",

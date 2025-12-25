@@ -1,10 +1,12 @@
+// https://leetcode.com/problems/combination-sum
+
 package medium;
 
 import java.util.*;
 
 public class CombinationSum {
     // given an arry of the distinct elements
-    // return a list of the list Which sums upto a target
+    // return a list of the list Which sums upto a target uniques subsets/list
     // [2,3,4] k=7
     // ans [[2,2,3], [3,4]]
 
