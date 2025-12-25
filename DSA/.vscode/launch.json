@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "SubsetSumI",
+        "request": "launch",
+        "mainClass": "medium.SubsetSumI",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "CombinationSumII",
         "request": "launch",
         "mainClass": "medium.CombinationSumII",
