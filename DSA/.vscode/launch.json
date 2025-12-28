@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "RateInAMaze",
+        "request": "launch",
+        "mainClass": "hard.RateInAMaze",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "NQueen",
+        "request": "launch",
+        "mainClass": "hard.NQueen",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "WordSearch",
         "request": "launch",
         "mainClass": "hard.WordSearch",
