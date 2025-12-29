@@ -6,6 +6,7 @@ import java.util.List;
 public class PrintSubSequenceOfTarget {
 
     static List<Integer> findTargetSequence(int[] arr, int target, int index, ArrayList<Integer> list) {
+      
         if (index == arr.length) {
             if (target == 0) return new ArrayList<>(list); // base case: target matched
             return new ArrayList<>();

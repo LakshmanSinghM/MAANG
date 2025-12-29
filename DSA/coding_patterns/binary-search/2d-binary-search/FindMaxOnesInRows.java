@@ -6,7 +6,7 @@ public class FindMaxOnesInRows {
         // 0 0 0 1 1 1
         int ele = 1, low = 0, high = arr.length - 1;
         int ans = -1;
-        
+
         while (low <= high) {
             int mid = (low + high) / 2;
 
@@ -22,6 +22,7 @@ public class FindMaxOnesInRows {
     private static int rowNumOfTheMaxOne(int[][] arr) {
         int max = Integer.MIN_VALUE;
         int index = -1;
+
         for (int i = 0; i < arr.length; i++) {
             int val = findLowerBoundOfOneWithMax(arr[i]);
 
@@ -30,6 +31,7 @@ public class FindMaxOnesInRows {
                 max = val;
             }
         }
+
         return index;
     }
 

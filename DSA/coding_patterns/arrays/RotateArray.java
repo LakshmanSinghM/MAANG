@@ -10,6 +10,7 @@ class RotateArray {
             j--;
         }
     }
+    
     public void rotate(int[] nums, int k) {  
          k = k%nums.length;
         int n = nums.length-1;

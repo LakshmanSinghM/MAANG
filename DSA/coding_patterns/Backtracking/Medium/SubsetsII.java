@@ -31,6 +31,7 @@ public class SubsetsII {
     }
 
     private static void subsets(int[] arr, int i, List<List<Integer>> lists, List<Integer> list) {
+    
         if (i >= arr.length) {
             if (!list.isEmpty())
                 lists.add(new ArrayList<>(list));
@@ -42,8 +43,8 @@ public class SubsetsII {
         subsets(arr, i + 1, lists, list);
         else
         subsets(arr, i + 1, lists, list);
+
         list.removeLast();
-        
         if (i >= 1 && arr[i] != arr[i - 1])
         subsets(arr, i + 1, lists, list);
         else   

@@ -12,9 +12,9 @@ public class RateInAMaze {
         return arr;
     }
 
-    void solveMaz(List<String> list, int row, int col, int[][] grid, String move, int n) {
+    void solveMaz(List<String> list, int row, int col, int[][] grid, String move, int n, boolean vis[][]) {
 
-        if (row >= n-1 && col >= n-1) {
+        if (row >= n - 1 && col >= n - 1) {
             list.add(move);
             return;
         }
@@ -27,27 +27,33 @@ public class RateInAMaze {
             int newCol = direction[i][1];
 
             if (newCol >= 0 && newRow >= 0 && newCol < n && newRow < n && grid[newRow][newCol] != 0
-                    && grid[newRow][newCol] != '$') {
+                    && (!vis[newRow][newCol])) {
+
                 char c = (char) direction[i][2];
-                int temp = grid[newRow][newCol];
-                grid[newRow][newCol] = '$';
-                solveMaz(list, newRow, newCol, grid, move + c, n);
-                grid[newRow][newCol] = temp;
+                vis[newRow][newCol] = true;
+                solveMaz(list, newRow, newCol, grid, move + c, n, vis);
+                vis[newRow][newCol] = false;
             }
         }
     }
 
     public static void main(String[] args) {
         int maz[][] = {
-                { 1, 0, 0, 0 },
                 { 1, 1, 0, 0 },
                 { 1, 1, 0, 0 },
+                { 0, 1, 0, 0 },
                 { 1, 1, 1, 1 },
         };
 
-        List<String> list = new ArrayList<>();
+        boolean[][] vis = new boolean[maz.length][maz.length];
 
-        new RateInAMaze().solveMaz(list, 0, 0, maz, "D", maz.length);
+        List<String> list = new ArrayList<>(); 
+
+        if (maz[0][0] == 1) {
+            vis[0][0] = true;
+            new RateInAMaze().solveMaz(list, 0, 0, maz, "D", maz.length, vis);
+        }
+        
         System.out.println(list);
     }
 }

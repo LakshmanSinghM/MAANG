@@ -3,12 +3,13 @@
 import java.util.Arrays;
 
 public class AggressiveCows {
-    
+
     static boolean canPlaceCows(int arr[], int distance, int cows) {
         int foundCows = 1;
         int last = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
+
             if (arr[i] - last >= distance) {
                 foundCows++;
                 last = arr[i];

@@ -5,6 +5,7 @@ import java.util.*;
 public class QuickSort {
   // 1 6 7 8 9 2 3 0 5
   // 1 0 7 8 9 2 3 6 5
+
   public static void swap(int arr[], int i, int j) {
     int temp = arr[i];
     arr[i] = arr[j];
@@ -12,11 +13,14 @@ public class QuickSort {
   }
 
   public static int partition(int arr[], int low, int high) {
+
     // { 1, 2, 0, 5, 4 }
     // { 4, 2, 0, 5, 1 }
+
     int s = low;
     int e = high - 1;
     int pivot = arr[low];
+
     while (s < e) {
       while (arr[s] <= pivot && s <= high - 1)
         s++;
