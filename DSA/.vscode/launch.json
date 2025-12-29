@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "PalindromPartition",
+        "request": "launch",
+        "mainClass": "hard.PalindromPartition",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "SubSequencesSum",
         "request": "launch",
         "mainClass": "medium.SubSequencesSum",
