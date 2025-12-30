@@ -8,7 +8,7 @@ import java.util.List;
 
 public class NQueen {
 
-    // optimization we do using the hasmap
+    // optimization we do using the hashmap
 
     boolean isSafe(char[][] chess, int r, int c) {
         int row = r;

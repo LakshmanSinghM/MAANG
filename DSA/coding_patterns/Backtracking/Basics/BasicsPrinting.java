@@ -10,7 +10,7 @@ public class BasicsPrinting {
         printN(n - 1);
         System.out.println(n);
     }
-
+    
     public static void main(String[] a) {
         printN(2);
     }
