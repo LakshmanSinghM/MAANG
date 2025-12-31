@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "BasicProblems",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.basic.BasicProblems",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "ConvertNumbersDTOB",
         "request": "launch",
         "mainClass": "coding_patterns.bit_manipulation.ConvertNumbersDTOB",

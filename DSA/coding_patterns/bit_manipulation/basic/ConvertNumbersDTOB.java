@@ -10,6 +10,7 @@ public class ConvertNumbersDTOB {
     // (2*1)3 = 8
 
     int convertBinaryToDecimal(String s) {
+
         int i = s.length() - 1;
         int pow = 1;
         int num = 0;
