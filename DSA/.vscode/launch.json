@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "PowerSetUsingBit",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.PowerSetUsingBit",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "MinimumBitsToFlip",
         "request": "launch",
         "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.MinimumBitsToFlip",
