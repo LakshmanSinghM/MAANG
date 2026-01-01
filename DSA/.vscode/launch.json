@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "MinimumBitsToFlip",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.MinimumBitsToFlip",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "DivideToNumWithoutDMOperator",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.basic.DivideToNumWithoutDMOperator",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "BasicProblems",
         "request": "launch",
         "mainClass": "coding_patterns.bit_manipulation.basic.BasicProblems",

@@ -101,6 +101,17 @@ public class BasicProblems {
         System.out.println(object.convertDecimalToBinary(n));
     }
 
+    void checkNumberEvenOrNot(int n) {
+        // we can count both odd and even also
+        ConvertNumbersDTOB object = new ConvertNumbersDTOB();
+        System.out.println(object.convertDecimalToBinary(n));
+
+        if ((n & 1) == 0) {
+            System.out.println("Even Number");
+        } else
+            System.out.println("Odd Number");
+    }
+
     public static void main(String[] args) {
 
         BasicProblems b = new BasicProblems();
@@ -116,6 +127,7 @@ public class BasicProblems {
         // b.checkIsNumberPowOfTwo(8);
         // b.countTheOddNumberOfBits(8);
         // b.countTheOddNumberOfBits(8);
-        b.countTheNumberOfSetBits(13);
+        // b.countTheNumberOfSetBits(13);
+        // b.checkNumberEvenOrNot(12);
     }
 }
