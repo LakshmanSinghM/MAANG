@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "FindTwoNumberAppearsOneTime",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.FindTwoNumberAppearsOneTime",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "FindXOROFLeftToRightRange",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.FindXOROFLeftToRightRange",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "PowerSetUsingBit",
         "request": "launch",
         "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.PowerSetUsingBit",

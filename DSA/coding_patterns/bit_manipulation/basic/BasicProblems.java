@@ -3,6 +3,7 @@
 package coding_patterns.bit_manipulation.basic;
 
 public class BasicProblems {
+    
     void swapTwoNumbers(int a, int b) {
         System.out.println("Before swapping " + a + "   " + b);
         a = a ^ b;
