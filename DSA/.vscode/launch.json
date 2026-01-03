@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "DivisorsOfANumber",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.DivisorsOfANumber",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "PrimeFactorsOfANumber",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.PrimeFactorsOfANumber",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "FindTwoNumberAppearsOneTime",
         "request": "launch",
         "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.FindTwoNumberAppearsOneTime",

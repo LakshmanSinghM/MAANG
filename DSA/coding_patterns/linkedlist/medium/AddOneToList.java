@@ -3,7 +3,6 @@
 package medium;
 
 public class AddOneToList {
-
     // optimal use recursion as we can have the last push element in the stack trace
     int findHelper(ListNode node) {
         if (node == null) {

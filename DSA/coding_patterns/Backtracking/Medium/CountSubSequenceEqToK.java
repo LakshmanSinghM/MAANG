@@ -20,7 +20,6 @@ public class CountSubSequenceEqToK {
 
     public int countSubsequenceWithTargetSum(int[] nums, int k) {
         int count = countSubsequenceOfTarget(k, nums, 0, nums.length, 0);
-
         return count;
     }
 

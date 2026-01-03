@@ -19,7 +19,6 @@ public class GenerateBinaryStringWihoutCons1 {
             generate(list, n, sb + '1');
         else if (sb.length() == 0)
             generate(list, n, sb + '1');
-
     }
 
     public static List<String> generateString(int n) {

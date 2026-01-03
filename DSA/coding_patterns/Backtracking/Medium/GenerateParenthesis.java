@@ -6,11 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenerateParenthesis {
+
     void generateParenthesisHelper(List<String> list, String s, int n, int open, int close) {
         if (s.length() == n * 2) {
             list.add(s);
             return;
         }
+        
         if (open < n)
             generateParenthesisHelper(list, s + "(", n, open + 1, close);
         if (close < open)

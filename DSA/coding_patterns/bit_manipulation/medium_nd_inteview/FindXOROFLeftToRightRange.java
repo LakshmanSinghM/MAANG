@@ -30,7 +30,6 @@ public class FindXOROFLeftToRightRange {
         int tillLeft = findXORof1ToN(l - 1);
         int rightPartXOR = findXORof1ToN(r);
         return tillLeft ^ rightPartXOR;
-
     }
 
     public static void main(String[] args) {
