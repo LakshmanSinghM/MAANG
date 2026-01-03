@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "FindPrimeOfANumberSieveOfErathosis",
+        "request": "launch",
+        "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.FindPrimeOfANumberSieveOfErathosis",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "DivisorsOfANumber",
         "request": "launch",
         "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.DivisorsOfANumber",
