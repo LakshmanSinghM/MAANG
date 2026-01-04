@@ -1,4 +1,5 @@
 // https://takeuforward.org/plus/dsa/problems/count-primes-in-range-l-to-r
+// https://leetcode.com/problems/count-primes/description/
 
 package coding_patterns.bit_manipulation.medium_nd_inteview;
 
@@ -57,6 +58,7 @@ public class FindPrimeOfANumberSieveOfErathosis {
     }
 }
 
+
 // 2 × 2
 // 2 × 3
 // 2 × 4
@@ -84,3 +86,43 @@ public class FindPrimeOfANumberSieveOfErathosis {
 // 7 × 7
 
 // = 42
+
+
+
+
+    // leetcode 
+
+    
+    // int[] preComputeBlackBox(int n) {
+    //     int arr[] = new int[n];
+    //     Arrays.fill(arr, 1);
+
+    //     for (int i = 2; i * i <n; i++) {
+    //         for (int j = i * i; j <n; j = j + i) {
+    //             arr[j] = 0;
+    //         }
+    //     }
+    //     return arr;
+    // }
+
+    // int countPrimeinRange(int arr[], int left, int right) {
+    //     int cnt = 0;
+    //     if (left < 2) {
+    //         left = 2;
+    //     }
+
+    //     if (right<=2) {
+    //        return 0;
+    //     }
+
+    //     for (int i = left; i<right; i++) {
+    //         if (arr[i] == 1)
+    //             cnt++;
+    //     }
+    //     return cnt;
+    // }
+
+    // public int countPrimes(int n) {
+    //     int arr[] = preComputeBlackBox(n);
+    //     return countPrimeinRange(arr, 2, n);
+    // }
