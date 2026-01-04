@@ -3,6 +3,34 @@
   "configurations": [
     {
         "type": "java",
+        "name": "QueueUsingLinkedList",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.implementation.QueueUsingLinkedList",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "ImplementStackUsingLinkedList",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.implementation.ImplementStackUsingLinkedList",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "QueueUsingArrays",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.implementation.QueueUsingArrays",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "ImplementStackUsingArrays",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.implementation.ImplementStackUsingArrays",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "PrimeFactorizationOfANumber",
         "request": "launch",
         "mainClass": "coding_patterns.bit_manipulation.medium_nd_inteview.PrimeFactorizationOfANumber",
