@@ -19,11 +19,14 @@ class Queue {
         if (head == null || tail == null) {
             head = newNode;
             tail = newNode;
+            size++;
             return;
         }
         newNode.prev = tail;
         tail.next = newNode;
         tail = newNode;
+        size++;
+
     }
 
     int pop() {
@@ -36,12 +39,14 @@ class Queue {
         if (head.next == null) {
             head = null;
             tail = null;
+            size--;
             return data;
         }
         DNode node = head;
         head = head.next;
         head.prev = null;
         node.next = null;
+        size--;
 
         return data;
     }
