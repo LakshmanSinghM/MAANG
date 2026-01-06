@@ -42,7 +42,7 @@ public class ImplementQueueUsingStacks {
 
     public static void main(String[] args) {
         // do the operation here
-        
+
         // Example 1:
 
         // Input

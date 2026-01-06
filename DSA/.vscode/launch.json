@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "ImplementPostInPreFixOperations",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.basic.ImplementPostInPreFixOperations",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "QueueUsingLinkedList",
         "request": "launch",
         "mainClass": "coding_patterns.stack.implementation.QueueUsingLinkedList",
