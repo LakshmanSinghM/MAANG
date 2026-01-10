@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "TrappingRainWater",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.medium.TrappingRainWater",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "NextSmallerElementII",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.medium.NextSmallerElementII",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "NextSmallerElement",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.medium.NextSmallerElement",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "NextGreatereElement",
         "request": "launch",
         "mainClass": "coding_patterns.stack.medium.NextGreatereElement",
