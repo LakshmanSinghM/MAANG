@@ -1,13 +1,10 @@
-// https://leetcode.com/problems/sum-of-subarray-minimums
-
 package coding_patterns.stack.medium;
 
 import java.util.Arrays;
 import java.util.Stack;
 
-public class SumOfSubArrayMinimum {
-
-    int[][] previousAndNextSmallerElement(int nums[]) {
+public class SumOfSubArrayMaximum {
+    int[][] previousAndNextGreaterElement(int nums[]) {
 
         Stack<Integer> stack = new Stack<>();
         Stack<Integer> stack2 = new Stack<>();
@@ -17,14 +14,14 @@ public class SumOfSubArrayMinimum {
 
         for (int i = 0; i < nums.length; i++, j--) {
 
-            while (!stack.isEmpty() && nums[stack.peek()] > nums[i]) {
+            while (!stack.isEmpty() && nums[stack.peek()] < nums[i]) {
                 stack.pop();
             }
 
             arr[i] = stack.isEmpty() ? -1 : stack.peek();
             stack.push(i);
 
-            while (!stack2.isEmpty() && nums[stack2.peek()] >= nums[j]) {
+            while (!stack2.isEmpty() && nums[stack2.peek()] <= nums[j]) {
                 stack2.pop();
             }
 
@@ -36,11 +33,15 @@ public class SumOfSubArrayMinimum {
         return new int[][] { arr, arr2 };
     }
 
-    public int sumSubarrayMins(int[] arr) {
+    public int sumSubarrayMaximum(int[] arr) {
         long total = 0;
-        int output[][] = previousAndNextSmallerElement(arr);
+        int output[][] = previousAndNextGreaterElement(arr);
         int prev[] = output[0];
         int next[] = output[1];
+
+        System.out.println("PREV  " + Arrays.toString(prev));
+        System.out.println("NEXT  " + Arrays.toString(next));
+
         long MOD = 1000000007L;
 
         for (int i = 0; i < arr.length; i++) {
@@ -53,8 +54,8 @@ public class SumOfSubArrayMinimum {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 3, 4, 2, 4, 5, 1, 0 };
-        SumOfSubArrayMinimum subArrayMinimum = new SumOfSubArrayMinimum();
-        System.out.println(subArrayMinimum.sumSubarrayMins(arr));
+        int arr[] = { 1, 3, 1, 4, 2, 0, 1 };
+        SumOfSubArrayMaximum subArrayMaximum = new SumOfSubArrayMaximum();
+        System.out.println(subArrayMaximum.sumSubarrayMaximum(arr));
     }
 }

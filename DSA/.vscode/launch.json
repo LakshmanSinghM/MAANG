@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "SumOfSubArrayRanges",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.medium.SumOfSubArrayRanges",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "SumOfSubArrayMaximum",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.medium.SumOfSubArrayMaximum",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "PreviousSmallerElement",
         "request": "launch",
         "mainClass": "coding_patterns.stack.medium.PreviousSmallerElement",
