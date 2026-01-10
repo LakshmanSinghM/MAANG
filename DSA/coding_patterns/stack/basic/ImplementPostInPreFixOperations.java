@@ -140,6 +140,7 @@ public class ImplementPostInPreFixOperations {
     }
 
     String prefixToPostfix(String s) {
+        
         Stack<String> stack = new Stack<>();
 
         for (int i = s.length() - 1; i >= 0; i--) {
