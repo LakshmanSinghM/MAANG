@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "PreviousSmallerElement",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.medium.PreviousSmallerElement",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "TrappingRainWater",
         "request": "launch",
         "mainClass": "coding_patterns.stack.medium.TrappingRainWater",
