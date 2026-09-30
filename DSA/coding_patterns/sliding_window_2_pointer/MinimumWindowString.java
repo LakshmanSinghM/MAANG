@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class MinimumWindowString {
 
-    // Do pen & paper for most clearity as my register is fulled hahaha
+    // Do pen & paper for most clearity as my register is filled hahaha
 
     public String minWindow(String s, String t) {
         int sIndex = -1, l = 0, r = 0, cnt = 0, minLen = Integer.MAX_VALUE;

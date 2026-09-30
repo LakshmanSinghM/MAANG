@@ -26,6 +26,13 @@ public class RecoverBST {
 
     public void recoverTree(TreeNode root) {
         inOrder(root);
+
+         //  showing the output in the preorder in result
+       
+    //    if(firstNode!=null) System.out.println("FN "+firstNode.val);
+
+    //    if(lastNode!=null) System.out.println("LN "+lastNode.val);
+    
         if (firstNode != null && lastNode != null) {
             int temp = firstNode.val;
             firstNode.val = lastNode.val;
