@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "CompetableFuture",
+        "request": "launch",
+        "mainClass": "JavaFeatures.Java8_features.CompetableFuture",
+        "projectName": "DSA_b0b013a7"
+    },
+    {
+        "type": "java",
+        "name": "JavaVirtualThread",
+        "request": "launch",
+        "mainClass": "JavaFeatures.Java21_features.JavaVirtualThread",
+        "projectName": "DSA_b0b013a7"
+    },
+    {
+        "type": "java",
         "name": "FilterMethodPractice",
         "request": "launch",
         "mainClass": "ikedu.java_collection.FilterMethodPractice",
