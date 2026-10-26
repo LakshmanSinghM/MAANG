@@ -40,7 +40,7 @@ Dependencies
 		</dependency>
 
 
-================
+===============
 Start Class
 ===============
 
@@ -64,7 +64,7 @@ public class DataRestController {
 			fallbackMethod="getDataFromDB",
 			commandProperties= {
 				@HystrixProperty(name="circuitBreaker.requestVolumeThreshold", value="5"),
-				@HystrixProperty(name="circuitBreaker.sleepWindowInMilliseconds",value="10000")
+				@HystrixProperty(name="circuitBreaker.sleepWindowInMilliseconds", value="10000")
 			}
 	)
 	public String getDataFromRedis() {

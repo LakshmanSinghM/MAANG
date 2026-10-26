@@ -58,10 +58,3 @@ $ docker logs -f <container_id>
 # We can access our application now
 
 	URL : http://ec2-vm-public-ip:8080/
-
-
-
-
-
-
-

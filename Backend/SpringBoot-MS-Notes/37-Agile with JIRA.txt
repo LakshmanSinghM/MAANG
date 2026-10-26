@@ -132,7 +132,6 @@ Team Members : Developers & Testers
 *************  Agile Team Size : 7 - 10 members (Industry Standards)  ***************
 
 
-
 #########
 JIRA Tool
 #########

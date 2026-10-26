@@ -41,7 +41,7 @@ class CoBatch {
 
 	public CoResponse generateNotices ( ) {
 
-		List<CoTrigger> pendingTrgs  =  service.getPendingTriggers ( ) ; // get pending trgs from database
+		List<CoTrigger> pendingTrgs  =  service.getPendingTriggers ( ) ; // Get pending trgs from database
 
 		for ( CoTrigger trigger : pendingTrgs ){
 						// get citizen eligibility data
@@ -101,16 +101,3 @@ To overcome the above batch performance issue we can use Multi Threading
 10 Threads ----> 1 hour -----> 60 * 600 --> 36000 Triggers can be processed 
 
 10 Threads ----> 2 hour -----> 2 * 36000 -->72,000 Triggers can be processed 
-
-
-
-
-
-
-
-
-
-
-
-
-

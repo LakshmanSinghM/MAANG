@@ -82,8 +82,7 @@ public class MyUserDetailsService implements UserDetailsService {
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 		</dependency>
-		
-		
+				
 ========================================================================		
 7) Create JWT Util class like below to generate, validate the token
 ========================================================================

@@ -1258,7 +1258,7 @@ class ComponentClassName{
 
 -> To create Service we will use below command
 
-	$ ng generate service <Service-Name>
+$ ng generate service <Service-Name>
 
 -> Service class looks like below
 

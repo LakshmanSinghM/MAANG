@@ -112,22 +112,3 @@ SonarQube Integration with Maven Project
 -> execute below maven goal
 
 	$ mvn sonar:sonar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

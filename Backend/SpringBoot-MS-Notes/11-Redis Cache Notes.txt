@@ -55,7 +55,7 @@ What is Cache ?
 
 -> Cache is a memory which is used to store the data in key-value format.
 
--> If our application having a requirement to use satic data then it is highly recommended to use Cache in that application.
+-> If our application having a requirement to use static data then it is highly recommended to use Cache in that application.
 
 -> Using cache data we can reduce no.of db calls and we can improve performance of the application.
 
@@ -77,7 +77,7 @@ How to implement cache
 Q) What is Local cache & What is distributed cache ?
 ==============================================
 
--> If we implement cache with in one application then it called as local cache.
+-> If we implement cache within one application then it called as local cache.
 
 -> If we want to use cache data in multiple applications then we should go for distributed cache (Ex: Redis cache)
 
@@ -206,8 +206,8 @@ public class User implements Serializable {
 	private String id;
 	private String name;
 	private Long salary;
-
 }
+
 ----------------------------------------------------------------------------------
 public interface UserRepository {
 

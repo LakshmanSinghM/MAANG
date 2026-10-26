@@ -36,7 +36,7 @@ Note: Generated Random Password will be printed on console.
 How to override Spring Security Random Password
 =============================================
 
--> To override random credentials we can configre security credentials in application.properties file or application.yml file like
+-> To override random credentials we can configure security credentials in application.properties file or application.yml file like
 
 
 spring.security.user.name=ashokit
@@ -273,18 +273,3 @@ public class WelcomeRestController {
 }
 
 5) Run the application and test it.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

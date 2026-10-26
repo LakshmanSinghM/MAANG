@@ -8,7 +8,7 @@ What is polymorphism? How is it achieved in Java?
 Explain the Java Memory Model (Heap, Stack, PermGen/Metaspace).
 
 How does Garbage Collection work in Java?
-
+8
 What are Checked vs Unchecked Exceptions?
 
 Explain the concept of Thread Safety and how to achieve it.

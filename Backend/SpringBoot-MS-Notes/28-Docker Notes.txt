@@ -31,7 +31,6 @@ Application Development
 
 -> PROD means live environment (It is used to deliver the project)
 
-
 -> To deploy application to these many enivornments we need to take of all the softwars required to run our application in all environments. It is very difficult task.
 
 
@@ -70,8 +69,6 @@ Containerization
 -> Docker images we can share easily to mulitple machines
 
 -> Using Docker image we can create docker container and we can execute it
-
-
 
 
 Conclusion
@@ -131,7 +128,7 @@ Docker Domain Specific Key Words to build image.
 DockerImage 
 ++++++++++++
 
-It's a package which contains everything(Softwares+ENV+Application Code) to run your application.
+It's a package which contains everything (Softwares + ENV + Application Code) to run your application.
 
 DockerContainer
 +++++++++++++++++++++
@@ -141,7 +138,7 @@ DockerRepo/Registry
 ++++++++++++++++++++
 We can store and share the docker images.
 
-Public Repo 
+Public Repo
 ++++++++++++++
 Docker hub is a public reposotiry. Which contains all the open source softwares as 
 a docker images. We can think of docker hub as play store for docker images.
@@ -303,7 +300,7 @@ RUN
 
 Example :
 
-RUN mkdir  workspace
+RUN mkdir workspace
 
 RUN yum install git
 
@@ -491,7 +488,6 @@ $ docker rm <container-id>
 $ docker system prune -a
 
 
-
 +++++++++++++
 Docker Volumes
 ++++++++++++++
@@ -662,7 +658,7 @@ $ docker-compose images
 $ docker-compose -f <filename> up
 
 
-+++++++++++++++++++++++
++++++++++++++++++++++
 Docker Compose Setup
 +++++++++++++++++++++
 

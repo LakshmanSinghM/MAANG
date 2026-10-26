@@ -210,9 +210,10 @@ Note: Zipkin server will run on 9411 port number
 
 	URL : http://localhost:9411/
 
-============================
+===========================
 Steps to develop GREET-API
 ===========================
+
 1) Create Spring Boot application with below dependencies
 
 		- eureka-discovery-client
@@ -491,102 +492,3 @@ public class MyPreFilter implements GlobalFilter {
 
 
 ===========================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -82,12 +82,3 @@ JMETER Best Practise
     Cmd to execute the test ::::   jmeter -n -t test-plan.jmx -l test-results.jtl
 
 -> After test execution complete we can import JTL file into JMETER summary report to see the test results.
-
-
-
-
-
-
-
-
-

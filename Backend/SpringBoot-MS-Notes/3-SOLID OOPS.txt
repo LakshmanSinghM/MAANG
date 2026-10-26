@@ -1,7 +1,7 @@
 ==============
 OOPS Principles
 ==============
-1) Encapsulation 
+1) Encapsulation
 2) Polymorphism
 3) Abstraction
 4) Inheritence
@@ -111,7 +111,7 @@ public class PersonalLoan extends Loan {
 L - Liskov's Substitution principle
 =============================
 
-=> If class A is subtype of class B, we should be able to replace B with A without distrubing the behaviour of our program
+=> If class A is subtype of class B, we should be able to replace B with A without disturbing the behaviour of our program
 
 
 

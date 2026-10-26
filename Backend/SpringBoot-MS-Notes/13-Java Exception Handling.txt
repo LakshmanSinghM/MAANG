@@ -135,7 +135,7 @@ public class Demo {
 
 =====================
 Multiple Catch Blocks
-========================
+=====================
 
 -> For single try block we can write multiple catch blocks
 
@@ -302,7 +302,6 @@ public class AppExceptionHandler {
 		eb.setMsg(message);
 
 		return new ResponseEntity<ExceptionBean>(eb, HttpStatus.BAD_REQUEST);
-
 	}
 
 	@ExceptionHandler(value = NullPointerException.class)
@@ -319,6 +318,7 @@ public class AppExceptionHandler {
 	}
 
 }
+
 ----------------------------------------------
 @RestController
 public class DemoRestController {
@@ -330,7 +330,6 @@ public class DemoRestController {
 		return "hi";
 	}
 }
-
 -------------------------------------------------
 
 

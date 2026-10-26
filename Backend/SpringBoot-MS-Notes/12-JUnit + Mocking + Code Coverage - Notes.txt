@@ -39,7 +39,6 @@ What is Code Coverage ?
 
 -> To identify Code Coverage we can use 'Jacocco' plugin
 
-
 ===========================================================================
 
 Target Class : For which class we are performing unit testing that is called as Target class
