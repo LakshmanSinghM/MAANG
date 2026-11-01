@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSA/FAANG-DSA-Preparation-master/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/DSA/FAANG-DSA-Preparation-master/Algorithms/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/FAANG-DSA-Preparation-master/FAANG-DSA-Preparation-master.iml" filepath="$PROJECT_DIR$/DSA/FAANG-DSA-Preparation-master/FAANG-DSA-Preparation-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MAANG.iml" filepath="$PROJECT_DIR$/MAANG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/coding_patterns/coding_patterns.iml" filepath="$PROJECT_DIR$/DSA/coding_patterns/coding_patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/FAANG-DSA-Preparation-master/dataStructures/dataStructures.iml" filepath="$PROJECT_DIR$/DSA/FAANG-DSA-Preparation-master/dataStructures/dataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/dsa_revision/dsa_revision.iml" filepath="$PROJECT_DIR$/DSA/dsa_revision/dsa_revision.iml" />
+    </modules>
+  </component>
+</project>

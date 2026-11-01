@@ -1,3 +1,5 @@
+package dsa_revision.linkedlist;
+
 class Node {
     int key,val;
     Node(int k, int v){
