@@ -50,7 +50,7 @@ public class BestTimeToBuyAndSell {
     // we can compare
 
     // Follow ups - can we do it from the front
-    // now my answe keep the min , max and keep comparing
+    // now my answer keep the min , max and keep comparing
 
     // follow up any other way
 
