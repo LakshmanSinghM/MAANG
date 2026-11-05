@@ -8,7 +8,7 @@ public class AuthenticationManageWithTTL {
      int ttl;
     Map<String,Integer> tokens;
 
-    public AuthenticationManager(int timeToLive) {
+    public AuthenticationManageWithTTL(int timeToLive) {
         this.ttl = timeToLive;
         tokens = new HashMap<>();
     }
