@@ -29,8 +29,8 @@ public class GraphCreateAdjList {
       int u = scanner.nextInt();
       int v = scanner.nextInt();
 
-      if (list.get(u) == null) list.add(u, new ArrayList<>());
-      if (list.get(v) == null) list.add(v, new ArrayList<>());
+    //   if (list.get(u) == null) list.add(u, new ArrayList<>());
+    //   if (list.get(v) == null) list.add(v, new ArrayList<>());
 
       list.get(u).add(v);
       list.get(v).add(u);
