@@ -1,33 +1,27 @@
 package dsa_revision.graph;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
 public class DfsOfGraph {
 
-  static List<Integer> dfsGraph(List<List<Integer>> adj, boolean vis[]) {
-    Queue<Integer> q = new LinkedList<>();
-    List<Integer> traversal = new LinkedList<>();
-    q.offer(1);
-    vis[1] = true;
-
-    while(!q.isEmpty()){    
-      Integer node = q.poll();
-      traversal.add(node);
-      for (int n : adj.get(node)) {
-        if(!vis[n]) {
-          vis[n] = true;
-          q.offer(n);
-        }
+  static void dfsGraph(List<List<Integer>> adj,boolean vis[],int node,List<Integer> traversal) {
+    vis[node] = true;
+    traversal.add(node);
+    for (int n : adj.get(node)) {
+      if (!vis[n]) {
+        dfsGraph(adj, vis, n, traversal);
       }
     }
-    return traversal;
   }
 
   public static void main(String[] x) {
     List<List<Integer>> adjList = GraphCreateAdjList.createAdjList();
     boolean vis[] = new boolean[adjList.size()];
-    System.out.println(bfsGraph(adjList, vis));
+    List<Integer> traversal = new ArrayList<>();
+    dfsGraph(adjList, vis, 1, traversal);
+    System.out.println(traversal);
   }
 }
