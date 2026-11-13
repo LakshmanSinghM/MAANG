@@ -23,5 +23,6 @@ public class DfsOfGraph {
     List<Integer> traversal = new ArrayList<>();
     dfsGraph(adjList, vis, 1, traversal);
     System.out.println(traversal);
+    // will look other problems like connected compos and all
   }
 }
