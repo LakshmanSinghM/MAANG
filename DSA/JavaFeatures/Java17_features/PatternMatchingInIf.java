@@ -20,5 +20,8 @@ public class PatternMatchingInIf {
     } else if (o instanceof Integer s) {
       System.out.println(s + 10);
     }
+    java.util.Objects
+
+    // same thing we can write in the switch statements and also expression inside the case 
   }
 }
