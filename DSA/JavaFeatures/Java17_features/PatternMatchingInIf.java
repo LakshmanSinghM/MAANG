@@ -1,5 +1,4 @@
 package JavaFeatures.Java17_features;
-
 public class PatternMatchingInIf {
 
   public static void main(String[] args) {
@@ -20,8 +19,8 @@ public class PatternMatchingInIf {
     } else if (o instanceof Integer s) {
       System.out.println(s + 10);
     }
-    java.util.Objects
+    // java.util.Objects
 
-    // same thing we can write in the switch statements and also expression inside the case 
+    // same thing we can write in the switch statements and also expression inside the case
   }
 }
