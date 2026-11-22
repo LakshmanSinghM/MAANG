@@ -1,5 +1,6 @@
 package dsa_revision.graph.basics;
 
+// https://leetcode.com/problems/find-if-path-exists-in-graph/
 public class FindPathExistsOrNotInGraph {
 
   private List<List<Integer>> buildAdj(int n, int[][] edges) {
